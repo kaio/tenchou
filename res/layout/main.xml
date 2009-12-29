@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/title"
-    />
-<View android:id="@+id/View01" android:layout_width="wrap_content" android:layout_height="wrap_content"></View>
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainMenuListView"></ListView>
+    <TextView
+        android:text="Input data from your cashier:"
+        android:id="@+id/InputDataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:text="gross profit"
+        android:id="@+id/GrossProfitEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:text="number of items purchased"
+        android:id="@+id/ItemsPurchasedEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:text="number of customers entered"
+        android:id="@+id/CustomersEnteredEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:text="Calculate"
+        android:id="@+id/CalculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <TextView
+        android:text="Gross profit per customer:"
+        android:id="@+id/GrossProfitPerCustomerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:text=""
+        android:id="@+id/GrossProfitPerCustomerEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"></EditText>
+    <TextView
+        android:text="Gross profit per purchase:"
+        android:id="@+id/GrossProfitPerPurchaseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:text=""
+        android:id="@+id/GrossProfitPerPurchaseEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"></EditText>
+
 </LinearLayout>

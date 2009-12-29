@@ -1,7 +1,5 @@
 package me.kaio.tenchou;
 
-import java.text.Format;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,44 +9,68 @@ import android.widget.EditText;
 
 public class Main extends Activity {
 
-	private static final String TAG = "TenChou";
-
+	// Views
 	private Button calculateButton;
+	private EditText grossProfitEditText, numOfItemsEditText,
+			numOfCustomersEditText, grossProfitPerCustomerEditText,
+			grossProfitPerItemEditText;
 
-	private EditText GrossProfitEditText, ItemsPurchasedEditText,
-			CustomersEnteredEditText, GrossProfitPerCustomerEditText,
-			GrossProfitPerPurchaseEditText;
+	// Listeners
+	private OnClickListener calculateListener;
 
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		GrossProfitEditText = (EditText) findViewById(R.id.GrossProfitEditText);
-		ItemsPurchasedEditText = (EditText) findViewById(R.id.ItemsPurchasedEditText);
-		CustomersEnteredEditText = (EditText) findViewById(R.id.CustomersEnteredEditText);
-		GrossProfitPerCustomerEditText = (EditText) findViewById(R.id.GrossProfitPerCustomerEditText);
-		GrossProfitPerPurchaseEditText = (EditText) findViewById(R.id.GrossProfitPerPurchaseEditText);
+		// EditTexts
+		grossProfitEditText = (EditText) findViewById(R.id.grossProfitEditText);
+		numOfItemsEditText = (EditText) findViewById(R.id.numOfItemsEditText);
+		numOfCustomersEditText = (EditText) findViewById(R.id.numOfCustomersEditText);
+		grossProfitPerCustomerEditText = (EditText) findViewById(R.id.grossProfitPerCustomerEditText);
+		grossProfitPerItemEditText = (EditText) findViewById(R.id.grossProfitPerItemEditText);
 
-		calculateButton = (Button) findViewById(R.id.CalculateButton);
-
-		try {
-			calculateButton.setOnClickListener(new OnClickListener() {
-				public void onClick(View v) {
-					if (v.getId() == R.id.CalculateButton)
-						calculate();
-				}
-			});
-		} catch (Exception e) {
-			// skip
-		}
-
+		// calculate Button
+		calculateButton = (Button) findViewById(R.id.calculateButton);
+		calculateListener = new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				calculate();
+			}
+		};
+		calculateButton.setOnClickListener(calculateListener);
 	}
 
 	private void calculate() {
-		double GrossProfitPerCustomer = 	Double.parseDouble(GrossProfitEditText.getText().toString()) / Double.parseDouble(CustomersEnteredEditText.getText().toString());
 		
-		GrossProfitPerCustomerEditText.setText(Double.toString(GrossProfitPerCustomer));
+		// compute gross-profit-per-customer
+		String grossProfitPerCustomerOutput, grossProfitPerItemOutput;
+		try {
+			double grossProfitPerCustomer = Double
+					.parseDouble(grossProfitEditText.getText().toString())
+					/ Double.parseDouble(numOfCustomersEditText.getText()
+							.toString());
+			grossProfitPerCustomerOutput = Double
+					.toString(grossProfitPerCustomer);
+		} catch (Exception e) {
+			grossProfitPerCustomerOutput = "ERROR!!";
+		}
+
+		// compute gross-profit-per-item
+		try {
+			double grossProfitPerItem = Double.parseDouble(grossProfitEditText
+					.getText().toString())
+					/ Double.parseDouble(numOfItemsEditText.getText()
+							.toString());
+			grossProfitPerItemOutput = Double.toString(grossProfitPerItem);
+		} catch (Exception e) {
+			grossProfitPerItemOutput = "ERROR!!";
+		}
+
+		// output calculation results
+		grossProfitPerCustomerEditText.setText(grossProfitPerCustomerOutput);
+		grossProfitPerItemEditText.setText(grossProfitPerItemOutput);
 	}
 }

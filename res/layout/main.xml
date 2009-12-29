@@ -4,61 +4,66 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <TextView
-        android:id="@+id/TitleTextView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title"/>
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/MainMenuListView"></ListView>
+        android:id="@+id/mainMenuListView"></ListView>
     <TextView
-        android:text="Input data from your cashier:"
-        android:id="@+id/InputDataTextView"
+        android:text="Gross Profit:"
+        android:id="@+id/grossProfitTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <EditText
-        android:text="gross profit"
-        android:id="@+id/GrossProfitEditText"
+        android:text=""
+        android:id="@+id/grossProfitEditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:text="Number of Customers:"
+        android:id="@+id/numOfCustomersTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
     <EditText
-        android:text="number of items purchased"
-        android:id="@+id/ItemsPurchasedEditText"
+        android:text=""
+        android:id="@+id/numOfCustomersEditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:text="Number of Items:"
+        android:id="@+id/numOfItemsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
     <EditText
-        android:text="number of customers entered"
-        android:id="@+id/CustomersEnteredEditText"
+        android:text=""
+        android:id="@+id/numOfItemsEditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"></EditText>
     <Button
         android:text="Calculate"
-        android:id="@+id/CalculateButton"
+        android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></Button>
+    
     <TextView
-        android:text="Gross profit per customer:"
-        android:id="@+id/GrossProfitPerCustomerTextView"
+        android:text="Gross Profit per Customer:"
+        android:id="@+id/grossProfitPerCustomerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <EditText
         android:text=""
-        android:id="@+id/GrossProfitPerCustomerEditText"
-        android:layout_width="wrap_content"
+        android:id="@+id/grossProfitPerCustomerEditText"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:editable="false"></EditText>
     <TextView
-        android:text="Gross profit per purchase:"
-        android:id="@+id/GrossProfitPerPurchaseTextView"
+        android:text="Gross Profit per Item:"
+        android:id="@+id/grossProfitPerItemTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <EditText
         android:text=""
-        android:id="@+id/GrossProfitPerPurchaseEditText"
-        android:layout_width="wrap_content"
+        android:id="@+id/grossProfitPerItemEditText"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:editable="false"></EditText>
-
 </LinearLayout>

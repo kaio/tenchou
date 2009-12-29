@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="me.kaio.tenchou"
       android:versionCode="1"
-      android:versionName="1.0">
+      android:versionName="1.0" package="me.kaio.tenchou">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".Main"
                   android:label="@string/app_name">

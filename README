@@ -1,12 +1,14 @@
 Introduction:
 
-  TenChou is an Android application which performs data mining for retail shop managers. 
+  TenChou is a retail data analysis system which provides various of 
+  information of a shop. 
 
   TenChou is released under GPLv3.
 
 Requirements:
 
-  Android 2.0 or above.
+  Android edition     - Android 2.0 or above.
+  iPhone/iPad edition - iOS 4.0.1 or above.
 
 Website:
 

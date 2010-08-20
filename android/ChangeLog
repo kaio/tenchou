@@ -1,0 +1,65 @@
+commit fd8f53cc60c10217d01b568a8e43eac94f6e572b
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Wed Dec 30 05:19:33 2009 +1000
+
+    - Added documentation.
+
+commit 597865831d48251aca3d892e846d41959594bf5d
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Wed Dec 30 05:05:06 2009 +1000
+
+    - Introduced GPLv3.
+    - Added 'COPYING': GPLv3 License.
+
+commit be48828a42e655b92eaac37d0741345ec2ca531a
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Wed Dec 30 02:26:57 2009 +1000
+
+    - Added screenshots.
+
+commit da25e294d35243e653054aa8f8a4cb3fda072298
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Wed Dec 30 02:19:33 2009 +1000
+
+    - Rearranged order of input fields.
+    - Added labels for each field.
+    - Added calculation logics.
+    - Added error handling of invalid inputted data.
+
+commit 48219051f3cac3167b332b2a39cb809c2ee21345
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 16:47:16 2009 +1000
+
+    - Added main UI.
+    - Added calculate logic.
+    - WIP.
+
+commit da8b914f262a6c93350cc48146ac2617c63db114
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 02:59:01 2009 +1000
+
+    - Removed .project.
+
+commit e0fa63e471c007075748f09d5b393615c36023e4
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 02:56:03 2009 +1000
+
+    - Ignored  .project/
+
+commit a0d494d90b9b00b9b3f2380ff69cd1d725393906
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 02:54:23 2009 +1000
+
+    - Removed bin/ dir.
+
+commit d5c0643179aee5bca4e52661bc70570ebb5ad604
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 02:50:53 2009 +1000
+
+    - Ignore bin/ dir.
+
+commit deb83fdd6887422d4a7da428d8d14ef38980cbba
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Tue Dec 29 02:41:34 2009 +1000
+
+    - First commit.

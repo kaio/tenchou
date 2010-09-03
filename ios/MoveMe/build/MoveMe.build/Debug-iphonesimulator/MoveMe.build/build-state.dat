@@ -1,466 +1,0 @@
-TMoveMe
-v7
-r0
-t302082967.304837
-cCheck dependencies
-cProcessInfoPlistFile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Info.plist Info.plist
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Default.png images/Default.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Placard.png images/Placard.png
-cCompileXIB /Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib
-cCompileXIB /Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-72.png images/Icon-72.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small-50.png images/Icon-Small-50.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small.png images/Icon-Small.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small@2x.png images/Icon-Small@2x.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon.png images/Icon.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/Icon@2x.png images/Icon@2x.png
-cCpResource build/Debug-iphonesimulator/MoveMe.app/iTunesArtwork images/iTunesArtwork
-cProcessPCH /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch.gch MoveMe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/main.o /Users/cchance/Downloads/MoveMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeAppDelegate.o /Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/PlacardView.o /Users/cchance/Downloads/MoveMe/Classes/PlacardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeView.o /Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe normal i386
-cGenerateDSYMFile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app.dSYM /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe
-cTouch /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C4D074D0000000000000132
-t1280116557
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C04586B00000000000000C4
-t1275353195
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.h
-c000000004C29064A0000000000000ACC
-t1277757002
-s2764
-
-N/Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m
-c000000004C29064A0000000000000DA0
-t1277757002
-s3488
-i"MoveMeAppDelegate.h"
-
-N/Users/cchance/Downloads/MoveMe/Classes/MoveMeView.h
-c000000004C29064A0000000000000B01
-t1277757002
-s2817
-
-N/Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m
-c000000004C29064A0000000000003137
-t1277757002
-s12599
-i"MoveMeView.h"
-i"PlacardView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/cchance/Downloads/MoveMe/Classes/PlacardView.h
-c000000004C29064A0000000000000B6E
-t1277757002
-s2926
-
-N/Users/cchance/Downloads/MoveMe/Classes/PlacardView.m
-c000000004C29064A000000000000157A
-t1277757002
-s5498
-i"PlacardView.h"
-
-N/Users/cchance/Downloads/MoveMe/MoveMe_Prefix.pch
-c0000000048B653C200000000000000B5
-t1219908546
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app
-t1280375655
-s510
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app.dSYM
-t1280375655
-s102
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Default.png
-t1280375652
-s13036
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon-72.png
-t1280375653
-s1063
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon-Small-50.png
-t1280375653
-s992
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon-Small.png
-t1280375653
-s918
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon-Small@2x.png
-t1280375653
-s1010
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon.png
-t1280375653
-s1007
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Icon@2x.png
-t1280375653
-s1252
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Info.plist
-t1280375652
-s747
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe
-t1280375655
-s29692
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/PkgInfo
-t1280375652
-s8
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Placard.png
-t1280375652
-s5507
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/en.lproj/MainWindow.nib
-t1280375653
-s959
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/en.lproj/MoveMeView.nib
-t1280375653
-s844
-
-N/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/iTunesArtwork
-t1280375653
-s5188
-
-N/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMe.LinkFileList
-c000000004C50FB6400000000000001DE
-t1280375652
-s478
-
-N/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeAppDelegate.o
-t1280375654
-s46396
-
-N/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeView.o
-t1280375655
-s55612
-
-N/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/PlacardView.o
-t1280375654
-s46160
-
-N/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/main.o
-t1280375654
-s6288
-
-N/Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib
-c000000004C20FB6B0000000000001B8B
-t1277229931
-s7051
-
-N/Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib
-c000000004C20FB6B0000000000001568
-t1277229931
-s5480
-
-N/Users/cchance/Downloads/MoveMe/images/Default.png
-c000000004C20FB6B00000000000032EC
-t1277229931
-s13036
-
-N/Users/cchance/Downloads/MoveMe/images/Icon-72.png
-c000000004C253D310000000000000427
-t1277508913
-s1063
-
-N/Users/cchance/Downloads/MoveMe/images/Icon-Small-50.png
-c000000004C253D3100000000000003E0
-t1277508913
-s992
-
-N/Users/cchance/Downloads/MoveMe/images/Icon-Small.png
-c000000004C253D310000000000000396
-t1277508913
-s918
-
-N/Users/cchance/Downloads/MoveMe/images/Icon-Small@2x.png
-c000000004C253D3100000000000003F2
-t1277508913
-s1010
-
-N/Users/cchance/Downloads/MoveMe/images/Icon.png
-c000000004C253D3100000000000003EF
-t1277508913
-s1007
-
-N/Users/cchance/Downloads/MoveMe/images/Icon@2x.png
-c000000004C253D3100000000000004E4
-t1277508913
-s1252
-
-N/Users/cchance/Downloads/MoveMe/images/Placard.png
-c000000004C20FB6B0000000000001583
-t1277229931
-s5507
-
-N/Users/cchance/Downloads/MoveMe/images/iTunesArtwork
-c000000004C253D310000000000001444
-t1277508913
-s5188
-
-N/Users/cchance/Downloads/MoveMe/main.m
-c000000004C29064A0000000000000A61
-t1277757002
-s2657
-
-N/var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch.gch
-t1280375654
-s10212912
-
-NInfo.plist
-c000000004C253D31000000000000048A
-t1277508913
-s1162
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302082967#302082967#0(0"0(0#1#0"4231192#0"0#
-
-CCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeAppDelegate.o /Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302068454.664564
-e302068454.867853
-r1
-xCompileC
-xbuild/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeAppDelegate.o
-x/Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m302068454#302068454#0(0"0(0#0#59"/Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m2502488096#1838"    cd /Users/cchance/Downloads/MoveMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-generated-files.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-own-target-headers.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-all-target-headers.hmap -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-project-headers.hmap -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -I/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/include -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources/i386 -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources -include /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch -c /Users/cchance/Downloads/MoveMe/Classes/MoveMeAppDelegate.m -o /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeAppDelegate.o0#
-
-CCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeView.o /Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302068454.868008
-e302068455.033789
-r1
-xCompileC
-xbuild/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeView.o
-x/Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m302068454#302068455#0(0"0(0#0#52"/Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m2502488096#1824"    cd /Users/cchance/Downloads/MoveMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-generated-files.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-own-target-headers.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-all-target-headers.hmap -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-project-headers.hmap -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -I/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/include -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources/i386 -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources -include /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch -c /Users/cchance/Downloads/MoveMe/Classes/MoveMeView.m -o /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMeView.o0#
-
-CCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/PlacardView.o /Users/cchance/Downloads/MoveMe/Classes/PlacardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302068454.808717
-e302068454.957657
-r1
-xCompileC
-xbuild/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/PlacardView.o
-x/Users/cchance/Downloads/MoveMe/Classes/PlacardView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/cchance/Downloads/MoveMe/Classes/PlacardView.m302068454#302068454#0(0"0(0#0#53"/Users/cchance/Downloads/MoveMe/Classes/PlacardView.m2502488096#1826"    cd /Users/cchance/Downloads/MoveMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-generated-files.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-own-target-headers.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-all-target-headers.hmap -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-project-headers.hmap -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -I/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/include -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources/i386 -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources -include /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch -c /Users/cchance/Downloads/MoveMe/Classes/PlacardView.m -o /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/PlacardView.o0#
-
-CCompileC build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/main.o /Users/cchance/Downloads/MoveMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302068454.662779
-e302068454.808566
-r1
-xCompileC
-xbuild/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/main.o
-x/Users/cchance/Downloads/MoveMe/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@46"Compile /Users/cchance/Downloads/MoveMe/main.m302068454#302068454#0(0"0(0#0#38"/Users/cchance/Downloads/MoveMe/main.m2502488096#1804"    cd /Users/cchance/Downloads/MoveMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-generated-files.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-own-target-headers.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-all-target-headers.hmap -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-project-headers.hmap -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -I/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/include -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources/i386 -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources -include /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch -c /Users/cchance/Downloads/MoveMe/main.m -o /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib
-s302068452.360905
-e302068453.210551
-r1
-xCompileXIB
-x/Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib302068452#302068453#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib2502488096#566"    cd /Users/cchance/Downloads/MoveMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/en.lproj/MainWindow.nib /Users/cchance/Downloads/MoveMe/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib
-s302068452.390689
-e302068453.210296
-r1
-xCompileXIB
-x/Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@34"CompileXIB en.lproj/MoveMeView.xib302068452#302068453#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib2502488096#566"    cd /Users/cchance/Downloads/MoveMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/en.lproj/MoveMeView.nib /Users/cchance/Downloads/MoveMe/en.lproj/MoveMeView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Default.png images/Default.png
-s302068452.344215
-e302068452.383492
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Default.png
-ximages/Default.png
-lSLF07#2@23"Copy images/Default.png302068452#302068452#0(0"0(0#0#50"/Users/cchance/Downloads/MoveMe/images/Default.png4231192#440"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Default.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-72.png images/Icon-72.png
-s302068453.210765
-e302068453.240721
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon-72.png
-ximages/Icon-72.png
-lSLF07#2@23"Copy images/Icon-72.png302068453#302068453#0(0"0(0#0#50"/Users/cchance/Downloads/MoveMe/images/Icon-72.png4231192#440"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon-72.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small-50.png images/Icon-Small-50.png
-s302068453.212030
-e302068453.223527
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon-Small-50.png
-ximages/Icon-Small-50.png
-lSLF07#2@29"Copy images/Icon-Small-50.png302068453#302068453#0(0"0(0#0#56"/Users/cchance/Downloads/MoveMe/images/Icon-Small-50.png2502488096#446"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon-Small-50.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small.png images/Icon-Small.png
-s302068453.213125
-e302068453.244772
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon-Small.png
-ximages/Icon-Small.png
-lSLF07#2@26"Copy images/Icon-Small.png302068453#302068453#0(0"0(0#0#53"/Users/cchance/Downloads/MoveMe/images/Icon-Small.png2502488096#443"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon-Small.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon-Small@2x.png images/Icon-Small@2x.png
-s302068453.214412
-e302068453.235311
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon-Small@2x.png
-ximages/Icon-Small@2x.png
-lSLF07#2@29"Copy images/Icon-Small@2x.png302068453#302068453#0(0"0(0#0#56"/Users/cchance/Downloads/MoveMe/images/Icon-Small@2x.png2502488096#446"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon-Small@2x.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon.png images/Icon.png
-s302068453.216557
-e302068453.230824
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon.png
-ximages/Icon.png
-lSLF07#2@20"Copy images/Icon.png302068453#302068453#0(0"0(0#0#47"/Users/cchance/Downloads/MoveMe/images/Icon.png2502488096#437"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Icon@2x.png images/Icon@2x.png
-s302068453.218720
-e302068453.246546
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Icon@2x.png
-ximages/Icon@2x.png
-lSLF07#2@23"Copy images/Icon@2x.png302068453#302068453#0(0"0(0#0#50"/Users/cchance/Downloads/MoveMe/images/Icon@2x.png2502488096#440"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Icon@2x.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/Placard.png images/Placard.png
-s302068452.359209
-e302068452.390562
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/Placard.png
-ximages/Placard.png
-lSLF07#2@23"Copy images/Placard.png302068452#302068452#0(0"0(0#0#50"/Users/cchance/Downloads/MoveMe/images/Placard.png2502488096#440"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/Placard.png /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CCpResource build/Debug-iphonesimulator/MoveMe.app/iTunesArtwork images/iTunesArtwork
-s302068453.220939
-e302068453.242949
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MoveMe.app/iTunesArtwork
-ximages/iTunesArtwork
-lSLF07#2@25"Copy images/iTunesArtwork302068453#302068453#0(0"0(0#0#52"/Users/cchance/Downloads/MoveMe/images/iTunesArtwork2502488096#442"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cchance/Downloads/MoveMe/images/iTunesArtwork /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
-CGenerateDSYMFile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app.dSYM /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe
-s302068455.419789
-e302068455.518442
-r1
-xGenerateDSYMFile
-x/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app.dSYM
-x/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/MoveMe.app.dSYM build/Debug-iphonesimulator/MoveMe.app/MoveMe302068455#302068455#0(0"0(0#0#77"/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe2502488096#359"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe -o /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app.dSYM0#
-
-CLd /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe normal i386
-s302068455.033957
-e302068455.419631
-r1
-xLd
-x/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe
-xnormal
-xi386
-lSLF07#2@82"Link /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe302068455#302068455#0(0"0(0#0#0"2502488096#882"    cd /Users/cchance/Downloads/MoveMe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -filelist /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/Objects-normal/i386/MoveMe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/MoveMe0#
-
-CProcessInfoPlistFile /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Info.plist Info.plist
-s302068452.302672
-e302068452.343322
-r1
-xProcessInfoPlistFile
-x/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist302068452#302068452#0(0"0(0#0#42"/Users/cchance/Downloads/MoveMe/Info.plist4231192#448"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app/Info.plist0#
-
-CProcessPCH /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch.gch MoveMe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302068453.246755
-e302068454.662466
-r1
-xProcessPCH
-x/var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch.gch
-xMoveMe_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile MoveMe_Prefix.pch302068453#302068454#0(0"0(0#0#49"/Users/cchance/Downloads/MoveMe/MoveMe_Prefix.pch2502488096#1704"    cd /Users/cchance/Downloads/MoveMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-generated-files.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-own-target-headers.hmap -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-all-target-headers.hmap -iquote /Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/MoveMe-project-headers.hmap -F/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator -I/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/include -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources/i386 -I/Users/cchance/Downloads/MoveMe/build/MoveMe.build/Debug-iphonesimulator/MoveMe.build/DerivedSources -c /Users/cchance/Downloads/MoveMe/MoveMe_Prefix.pch -o /var/folders/jX/jXuMHV1-HpWW0VGI+yDcX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MoveMe_Prefix-bnplequfhejkrkboeemhhzltehfn/MoveMe_Prefix.pch.gch0#
-
-CTouch /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app
-s302068455.518584
-e302068455.559561
-r1
-xTouch
-x/Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app
-lSLF07#2@76"Touch /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app302068455#302068455#0(0"0(0#0#0"2502488096#263"    cd /Users/cchance/Downloads/MoveMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cchance/Downloads/MoveMe/build/Debug-iphonesimulator/MoveMe.app0#
-
